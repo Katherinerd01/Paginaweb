@@ -1,0 +1,161 @@
+*{
+    margin: 0%;
+    padding:0%;
+}
+
+.Cuerpo{
+    background: darkcyan;
+}
+
+h2{
+   font-family: 'Bradley Hand ITC';
+   font-style: italic;
+   font-weight: bold;
+   font-size: 30px;
+}
+header{
+    background-color: blue;
+    color: white;
+    padding: 19px;
+    text-align: center;
+    font-size: 25px;
+    position: sticky;
+    top: 0;  
+}
+
+.tituloheader::first-letter{
+    font-size: 100px;
+    color: red;
+    text-align: center;
+}
+
+nav{
+    display: flex;
+    height: 5%;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+
+}
+
+ul{
+    list-style: none;
+    padding: 10px;
+}
+
+a{
+    text-decoration: none;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;  
+    font-size: 20px;
+    color: white;    
+}
+
+a:hover{
+    background-color: red;
+}
+
+.contenido{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    height: 338px; 
+    margin-top: 30px;
+}
+
+
+footer {
+    background-color: red;
+    color: white;
+    height: 55px;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 25px auto 25px auto;
+    padding: auto;
+}
+  th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    text-align: center;  
+}
+
+tr:nth-child(even) {
+    background: #b9d8d7
+}
+
+tr:nth-child(odd) {
+    background: #96c4c3
+}
+    
+th {
+    background-color: darkcyan;
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+    padding-top: 20px;
+}
+ .dform{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    height: 400px;
+    width: 300px;
+    margin: 50px auto;
+   background-color: #96c4c3;
+   border-style: double;
+   
+ }
+ .Login{
+    text-align: center;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 20px;
+ }
+
+form{
+    justify-content: center;
+display: flex;
+flex-wrap: wrap;
+
+}
+input{
+     width: 200px; 
+    height: 25px;
+    background: linear-gradient(lightgreen,lightblue,#fff);
+     margin: 10px;
+    
+}
+
+img{
+   width: 100px;
+  
+}
+.Acceder{
+    width: 100px; 
+    height: 25px;
+    font-weight: bold;
+}
+.Bandera{
+    height: 70%;
+    width: 30%;
+}
+
+.Parrafo{
+    color: gray;
+    border-style: dashed;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    height: 200px;
+    width: 30%;
+    overflow: auto;
+}
+
+
